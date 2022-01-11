@@ -11,16 +11,16 @@
             <form action="<?= base_url('update/'.$film['id']) ?>" method="POST">
             <div class="form-row">
                 <div class="form-group mt-3">
-                    <label for="title">Titolo</label>
+                    <label class="text-primary " for="title">Titolo</label>
                     <input type="text" class="form-control" id="title" value="<?= $film['title']?>" name="title" required >
                 </div>
                 <div class="form-group mt-3">
-                    <label for="genre">Genere</label>
+                    <label class="text-primary " for="genre">Genere</label>
                     <input type="text" class="form-control" id="genre" value="<?= $film['genre']?>" name="genre" required >
                 </div>
                 </div>
                 <div class="form-group mt-3">
-                    <label for="genre">Descrizione</label>
+                    <label class="text-primary " for="genre">Descrizione</label>
                     <input type="text" class="form-control" id="description" value="<?= $film['description']?>" name="description"  required >
                 </div>
                 <div class="text-center">

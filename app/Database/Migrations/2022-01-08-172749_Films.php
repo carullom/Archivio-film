@@ -22,10 +22,10 @@ class Films extends Migration
             'genre'       => [
                 'type'       => 'VARCHAR',
                 'constraint' => '100',
+
             ],
             'description' => [
                 'type' => 'TEXT',
-                'null' => true,
             ],
         ]);
         $this->forge->addKey('id', true);

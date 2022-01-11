@@ -6,7 +6,8 @@
         <div class="row mt-3 text-center">
             <div class="col-12 ">
                 <?php if ($films != []): ?>
-                <table class="table table-dark">
+                    <div class="table-responsive">
+                <table class="table">
                         <thead>
                             <tr>
                             <th scope="col">Id</th>
@@ -26,14 +27,15 @@
                             <td><div class=" text-center">
                             <a href="<?= base_url('edit/'.$film['id']) ?>" class="btn btn-sm btn-primary m-1">Modifica</a>
                             <a href="<?= base_url('delete/'.$film['id']) ?>" class="btn btn-sm btn-danger m-1">Elimina</a>
-                        </div></td>
+                            </div></td>
                             </tr>
                             <?php endforeach ?>   
                             </tbody>
                 </table>
+            </div>
                    
                     <?php else: ?>
-                        <h2> Nessun film trovato</h2>
+                        <h1> Nessun film trovato</h1>
                     <?php endif; ?>   
                 </div>
             </div>

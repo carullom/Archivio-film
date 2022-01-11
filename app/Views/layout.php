@@ -29,7 +29,7 @@
             </ul>
                 <form class="d-flex"action="<?= base_url('search') ?>" method="GET">
                     <input class="form-control me-2" type="search" name="search"  aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Cerca</button>
+                    <button class="btn btn-outline-info " type="submit">Cerca</button>
                 </form>
           </div>
         </div>

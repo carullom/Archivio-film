@@ -1,7 +1,7 @@
 <?= $this->extend('layout') ?>
 
     <?= $this->section('content') ?>
-    
+
     <?php
                 if(session()->getFlashdata('status'))
                 {
@@ -45,7 +45,6 @@
             <?php endif; ?>
 
         </div>
-<script>$("#myModal").modal()</script>
   
 
     <?= $this->endSection() ?>
